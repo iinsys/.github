@@ -1,13 +1,23 @@
-# Ignore macOS system files
+# MacOS
 .DS_Store
 
-# Ignore IDE settings
-.idea/
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Java
+*.class
+target/
+
+# VSCode
 .vscode/
 
-# Node or Python files, if added in the future
-node_modules/
-__pycache__/
+# Ansible
+*.retry
 
-# Log files
-*.log
+# Rust
+target/
+Cargo.lock
